@@ -9,10 +9,6 @@ public class EnemyBehaviour : MonoBehaviour
 
 
 
-
-
-
-
     void Update()
     {
         // Bewege den NPC nach links basierend auf der Geschwindigkeit
@@ -23,8 +19,11 @@ public class EnemyBehaviour : MonoBehaviour
         {
            Destroy(gameObject);
         }
+
+
     }
 
+    
 
     }
 
