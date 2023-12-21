@@ -806,6 +806,7 @@ GameObject:
   - component: {fileID: 3540059784821539872}
   - component: {fileID: 7474562512187387395}
   - component: {fileID: 683127056254975867}
+  - component: {fileID: -5271825469522146313}
   m_Layer: 0
   m_Name: Octopus
   m_TagString: Obstacle
@@ -969,7 +970,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  transform: {fileID: 4723480754224469167}
+--- !u!114 &-5271825469522146313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6713000332474471820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b2ee2b061471504dbf86bfd4ebd15a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6727599720391201292
 GameObject:
   m_ObjectHideFlags: 0
